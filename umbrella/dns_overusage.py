@@ -17,7 +17,7 @@ import datetime
 # API Details
 # -- As a best practice consider loading this from environment variables in a secure fashion. This script has been simplified for educational purposes  
 mssp_key = "mssp_key"                      # < SUBSTITUTE MSSP API Key                                     
-mssp_secret = "msSp_secret"                   # < SUBSTITUTE MSSP Token    
+mssp_secret = "mssp_secret"                   # < SUBSTITUTE MSSP Token    
 mssp_id = XXXXXXX                                                  # < SUBSTITUTE MSSP Console id
 
 
