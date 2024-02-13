@@ -7,5 +7,5 @@ This repository contains individual standalone scripts that should only be used 
 ## Brief Summary of Scripts:
 
 - [**dns_overusage.py:**](https://github.com/aarrateg/msp-scripts/blob/main/umbrella/dns_overusage.py)<br>
-Shows an example on how to retrieve the seats assigned to MSP customers, and compute a seat estimation based on the traffic they generated for the ongoing month
+Shows an example on how to retrieve the seats assigned to MSP customers, and compute a seat estimation based on the traffic they generated for the ongoing month. This enables customer conversations to find out reasons for over usage (i.e., There was an increase of users in the customer organization, hence the MSP is under billing, there is an upsell opportunity)
   
