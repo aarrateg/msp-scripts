@@ -8,4 +8,9 @@ This repository contains individual standalone scripts that should only be used 
 
 - [**dns_overusage.py:**](https://github.com/aarrateg/msp-scripts/blob/main/umbrella/dns_overusage.py)<br>
 Shows an example on how to retrieve the seats assigned to MSP customers, and compute a seat estimation based on the traffic they generated for the ongoing month. This enables customer conversations to find out reasons for over usage (i.e., There was an increase of users in the customer's organization, hence the MSP is under billing, there is an upsell opportunity).
+
+- [**investigate_api_domain_enrichment.py:**](https://github.com/aarrateg/msp-scripts/blob/main/umbrella/investigate_api_domain_enrichment.py)<br>
+Shows an example on how to enrich the information that we know aorund a domain by leveragiing the Umbrella Investigate API, available in the Umbrella Advantage package. This can be leveraged to show value and understanding to customers through detail threat reporting, but most importantly enables organizations to take data driven actions on the threats they encounter.
+
+
   
