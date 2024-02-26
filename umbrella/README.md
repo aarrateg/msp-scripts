@@ -11,6 +11,7 @@ Shows an example on how to create, update and delete a customer programmatically
 
 - [**dns_overusage.py:**](https://github.com/aarrateg/msp-scripts/blob/main/umbrella/dns_overusage.py)<br>
 Shows an example on how to retrieve the seats assigned to MSP customers, and compute a seat estimation based on the traffic they generated for the ongoing month. This enables customer conversations to find out reasons for over usage (i.e., There was an increase of users in the customer's organization, hence the MSP is under billing, there is an upsell opportunity).
+
 Required API Scope: reports.customers:read, admin.customers:read, admin.customers:write
 
 - [**investigate_api_domain_enrichment.py:**](https://github.com/aarrateg/msp-scripts/blob/main/umbrella/investigate_api_domain_enrichment.py)<br>
