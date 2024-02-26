@@ -50,6 +50,8 @@ def get_token(key:str, secret:str, org_id:int) -> str:
 
 """
 Creates a new customer in the MSP dashbaord
+API Scope
+admin.customers:write
 """
 def create_customer(jwtToken, customer_parameters) -> dict:
     url = "https://api.umbrella.com/admin/v2/providers/customers"
@@ -66,6 +68,8 @@ def create_customer(jwtToken, customer_parameters) -> dict:
 
 """
 Update to paid customer in the MSP dashbaord
+API Scope
+admin.customers:write
 """
 def update_paid_customer(jwtToken, customer_parameters, customerId) -> dict:
     url = "https://api.umbrella.com/admin/v2/providers/customers/"+str(customerId)
@@ -82,6 +86,8 @@ def update_paid_customer(jwtToken, customer_parameters, customerId) -> dict:
 
 """
 Update a trial customer in the MSP dashbaord
+API Scope
+admin.customers:write
 """
 def update_customer(jwtToken, customer_parameters, customerId) -> dict:
     url = "https://api.umbrella.com/admin/v2/providers/customers/"+str(customerId)
@@ -98,6 +104,8 @@ def update_customer(jwtToken, customer_parameters, customerId) -> dict:
 
 """
 Delete a customer in the MSP dashbaord
+API Scope
+admin.customers:write
 """
 def delete_customer(jwtToken, customerId):
     url = "https://api.umbrella.com/admin/v2/providers/customers/"+str(customerId)
