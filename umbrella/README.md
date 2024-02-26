@@ -7,13 +7,13 @@ This repository contains individual standalone scripts that should only be used 
 ## Brief Summary of Scripts:
 
 - [**customer_creation_update_deletion.py:**](https://github.com/aarrateg/msp-scripts/blob/main/umbrella/customer_creation_update_deletion.py)<br>
-Shows an example on how to create, update and delete a customer programmatically in the Umbrella MSP dashboard. Note that if run all together the creation and modifitcations in the dashboard wouldn´t be seen as the customer is deleted, it would be visible only in the Audit Logs of the MSP Dashbaord (Settings>Audit Log). This can enable use cases like auto trial setup from MSP's website. <br><ins>Required API Scope:</ins> admin.customers:write
+Shows an example on how to create, update and delete a customer programmatically in the Umbrella MSP dashboard. Note that if run all together the creation and modifitcations in the dashboard wouldn´t be seen as the customer is deleted, it would be visible only in the Audit Logs of the MSP Dashbaord (Settings>Audit Log). This can enable use cases like auto trial setup from MSP's website.<br><br><ins>Required API Scope:</ins> admin.customers:write
 
 - [**dns_overusage.py:**](https://github.com/aarrateg/msp-scripts/blob/main/umbrella/dns_overusage.py)<br>
-Shows an example on how to retrieve the seats assigned to MSP customers, and compute a seat estimation based on the traffic they generated for the ongoing month. This enables customer conversations to find out reasons for over usage (i.e., There was an increase of users in the customer's organization, hence the MSP is under billing, there is an upsell opportunity).<br><ins>Required API Scope:</ins> reports.customers:read, admin.customers:read
+Shows an example on how to retrieve the seats assigned to MSP customers, and compute a seat estimation based on the traffic they generated for the ongoing month. This enables customer conversations to find out reasons for over usage (i.e., There was an increase of users in the customer's organization, hence the MSP is under billing, there is an upsell opportunity).<br><br><ins>Required API Scope:</ins> reports.customers:read, admin.customers:read
 
 - [**investigate_api_domain_enrichment.py:**](https://github.com/aarrateg/msp-scripts/blob/main/umbrella/investigate_api_domain_enrichment.py)<br>
-Shows an example on how to enrich the information that we know aorund a domain by leveragiing the Umbrella Investigate API, available in the Umbrella Advantage package. This can be leveraged to show value and understanding to customers through detail threat reporting, but most importantly enables organizations to take data driven actions on the threats they encounter. <br><ins>Required API Scope:</ins> Not applicable, Umbrella Investigate API Token
+Shows an example on how to enrich the information that we know aorund a domain by leveragiing the Umbrella Investigate API, available in the Umbrella Advantage package. This can be leveraged to show value and understanding to customers through detail threat reporting, but most importantly enables organizations to take data driven actions on the threats they encounter.<br><br><ins>Required API Scope:</ins> Not applicable, Umbrella Investigate API Token
 
 
 
