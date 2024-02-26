@@ -53,7 +53,7 @@ def get_token(key:str, secret:str, org_id:int) -> str:
 """
 Retrieves the customer list for the MSP
 API Scope
-admin.customers:read, admin.customers:write
+admin.customers:read
 """
 def get_customer_list(jwtToken) -> dict:
 
