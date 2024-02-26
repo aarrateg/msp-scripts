@@ -52,6 +52,8 @@ def get_token(key:str, secret:str, org_id:int) -> str:
 
 """
 Retrieves the customer list for the MSP
+API Scope
+admin.customers:read, admin.customers:write
 """
 def get_customer_list(jwtToken) -> dict:
 
@@ -67,6 +69,8 @@ def get_customer_list(jwtToken) -> dict:
 
 """
 Retrieves the activity (requests volume) for each of the customers of the MSP
+API Scope
+reports.customers:read
 """
 def get_customers_activity(jwtToken, from_, to_, limit_) -> dict:
 
